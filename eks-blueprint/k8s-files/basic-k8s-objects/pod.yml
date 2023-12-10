@@ -16,6 +16,7 @@ spec:
         memory: 500Mi
       requests:
         cpu: 100m
-        memory: 
-    - containerPort: 80
+        memory: 200Mi
+    ports:
+    - containerPort:  80
       name:  http
