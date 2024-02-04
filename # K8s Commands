@@ -2,8 +2,13 @@
 
 ###################################################3
 General commands
+<<<<<<< HEAD
 #########################
 #alias k=kubectl
+=======
+##########################
+alias k=kubectl
+>>>>>>> 965e6dad7b36a60c9b6cca75aaed3fd88c064ede
 alias kgp="kubectl get po" 
 alias kgn="kubectl get nodes"
 
@@ -12,10 +17,6 @@ k get po -n application --show-labels # show lables for pods
 k get po -o wide # to get list of nodes on which pods are deployed
 
 aws eks update-kubeconfig --name jjtech-demo-cluster --region us-east-1
-
-alias k=kubectl
-alias kgp="kubectl get po" 
-alias kgn="kubectl get nodes"
 
 kubectl create ns tower
 
